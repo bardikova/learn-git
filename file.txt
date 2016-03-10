@@ -1,0 +1,12 @@
+# coding: utf-8
+
+sudo apt-get install git-core - ставим git
+mkdir ololo - добавляем папку (проект) 
+touch project/file.txt - создаем в папке файл
+Далее переходим в папку проекта, инициализируем репозиторий: cd ololo
+git init
+git remote add origin ссылка
+отправляем на гитхаб наш file.txt:
+git add file.txt - добавили файл
+git commit -m "Added file.txt" - создаем коммит, указываем сообщение что произошло, какие измение были
+git push origin master - отправляем изменение на сервер
